@@ -1,3 +1,5 @@
+# Vnet exits previsously i.e. vb_vnet1 & vb_vnet2
+# resource groups exist previously i.e. azurerm_resource_group.resource_group1 and azurerm_resource_group.resource_group2
 
 data  "azurerm_resource_group" "resource_group1" {
   name     = "VB_RG1"
